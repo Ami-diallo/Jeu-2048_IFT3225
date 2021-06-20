@@ -1,0 +1,29 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+
+default namespace = "http://www.umontreal.ca/bibliotheque"
+namespace liv = "http://www.umontreal.ca/livres"
+namespace aut = "http://www.umontreal.ca/auteurs"
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+
+include "Livres.rnc" {
+    start = bibliotheque
+}
+
+bibliotheque = element bibliotheque {
+                    element livres {
+                        livre*
+                    },
+                    element auteurs {
+                        auteur*
+                    },
+                    adresse
+               }
+
+adresse = element adresse {
+            element numero {xsd:nonNegativeInteger},
+            element rue {text},
+            element ville {text},
+            element cp {CodePostal}
+          }
+          
+CodePostal = xsd:string {pattern="[A-Z][0-9][A-Z] [0-9][A-Z][0-9]"}

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE bibliotheque SYSTEM "Bibliotheque.dtd">
+
+<?xml-stylesheet type="text/xsl" href="Livres-par-auteur.xsl"?>
+<?xml-stylesheet type="text/xsl" href="Livres-par-prix.xsl"?> 
+
+<bibliotheque>
+    <livres>
+        <livre langue="anglais" auteurs="YH1">
+            <titre>21 lessons for the 21st century</titre>
+            <annee>2018</annee>
+            <prix devise="USD">23.55</prix>
+            <couverture>https://images-na.ssl-images-amazon.com/images/I/718K91oepAL.jpg</couverture>
+            <commentaire>380 pages</commentaire>
+        </livre>
+        <livre langue="français" auteurs="YH1">
+            <annee>2017</annee>
+            <titre>Homo deus : une brève histoire du futur</titre>
+            <prix devise="CAD">85.70</prix>
+            <couverture>https://images-na.ssl-images-amazon.com/images/I/71BjqUAFGpL.jpg</couverture>
+        </livre>
+        <livre langue="français" auteurs="JV2">
+            <titre>Les enfants du capitaine Grant</titre>
+            <annee>2007</annee>
+            <prix devise="EURO">17.20</prix>
+            <commentaire>Éditeur : Librairie générale française</commentaire>
+        </livre>
+        <livre langue="français" auteurs="JV2">
+            <titre>L'île mystérieuse</titre>
+            <annee>1996</annee>
+            <prix devise="EURO">14.05</prix>
+        </livre>
+        <livre langue="espagnol" auteurs="JV2">
+            <titre>La vuelta al mundo en ochenta días</titre>
+            <annee>2003</annee>
+            <prix devise="CAD">35.75</prix>
+        </livre>
+        <livre langue="français" auteurs="SH3">
+            <titre>Une brève histoire du temps : du big bang aux trous noirs</titre>
+            <prix devise="USD">45.10</prix>
+            <annee>2017</annee>
+            <couverture>https://images-na.ssl-images-amazon.com/images/I/714kjLmqazL.jpg</couverture>
+            <commentaire>Science</commentaire>
+        </livre>
+        <livre langue="anglais" auteurs="RE4 SN5">
+            <titre>Fundamentals of database systems</titre>
+            <annee>2016</annee>
+            <prix devise="CAD">97.40</prix>
+            <commentaire>Éditeur : Pearson</commentaire>
+        </livre>
+        <livre langue="anglais" auteurs="MO6">
+            <annee>2018</annee>
+            <prix devise="USD">60.25</prix>
+            <titre>Becoming</titre>
+            <couverture>https://images-na.ssl-images-amazon.com/images/I/81h2gWPTYJL.jpg</couverture>
+            <commentaire>Biographie</commentaire>
+        </livre>
+    </livres>
+    <auteurs>
+        <auteur ident="YH1">
+            <nom>Harari</nom>
+            <prenom>Yuval Noah</prenom>
+            <adresse>Israel, Tel Aviv</adresse>
+            <commentaire>Professeur d'histoire à l'université hébraïque de Jérusalem.</commentaire>
+            <email>yharari@gmail.com</email>
+        </auteur>
+        <auteur ident="JV2">
+            <prenom>Jules</prenom>
+            <nom>Verne</nom>
+            <adresse>France, Paris</adresse>
+            <commentaire>Genres artistiques : science-fiction, théâtre, roman d'aventures.</commentaire>
+            <email>librairie-francaise@hotmail.com</email>
+        </auteur>
+        <auteur ident="SH3">
+            <nom>Hawking</nom>
+            <prenom>Stephen</prenom>
+            <adresse>Royaume-Uni, Cambridge</adresse>
+            <email>physics@cam1.uk</email>
+        </auteur>
+        <auteur ident="RE4">
+            <prenom>Ramez</prenom>
+            <nom>Elmasri</nom>
+            <adresse>États-Unis, Texas, Arlington</adresse>
+            <commentaire>Department of Computer Science and Engineering at the University of Texas</commentaire>
+            <email>ramez_elmasri@university-texas.com</email>
+        </auteur>
+        <auteur ident="SN5">
+            <nom>Navathe</nom>
+            <prenom>Shamkant</prenom>
+            <adresse>États-Unis, Géorgie, Atlanta</adresse>
+            <commentaire>College of Computing, Georgia Institute of Technology</commentaire>
+            <email>n.shamkant1@gi-tech.com</email>
+        </auteur>
+        <auteur ident="MO6">
+            <prenom>Michelle</prenom>
+            <nom>Obama</nom>
+            <adresse>États-Unis, Illinois, Chicago</adresse>
+            <email>michelle.obama@yahoo.com</email>
+        </auteur>
+    </auteurs>
+    <adresse>
+        <numero>501</numero>
+        <rue>Saint Denis</rue>
+        <ville>Montréal</ville>
+        <cp>H2X 0A9</cp>
+    </adresse>    
+</bibliotheque>

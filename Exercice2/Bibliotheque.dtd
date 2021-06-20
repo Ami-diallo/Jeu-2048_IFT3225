@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT bibliotheque (livres, auteurs, adresse)>
+
+<!ELEMENT livres (livre+)>
+    <!ELEMENT livre ((titre | annee | prix)*, couverture?, commentaire?)>
+        <!ATTLIST livre langue CDATA #REQUIRED>
+        <!ATTLIST livre auteurs IDREFS #REQUIRED>
+    <!ELEMENT titre (#PCDATA)>
+    <!ELEMENT annee (#PCDATA)>
+    <!ELEMENT prix (#PCDATA)>
+        <!ATTLIST prix devise (CAD | USD | EURO) #REQUIRED>    
+    <!ELEMENT couverture (#PCDATA)>
+    <!ELEMENT commentaire (#PCDATA)>
+
+
+<!ELEMENT auteurs (auteur+)>
+    <!ELEMENT auteur ((nom | prenom)*, adresse, commentaire?, email)>
+        <!ATTLIST auteur ident ID #REQUIRED>    
+    <!ELEMENT nom (#PCDATA)>
+    <!ELEMENT prenom (#PCDATA)>
+    <!ELEMENT email (#PCDATA)>
+
+<!ELEMENT adresse (#PCDATA | numero | rue | ville | cp)*>
+    <!ELEMENT numero (#PCDATA)>
+    <!ELEMENT rue (#PCDATA)>
+    <!ELEMENT ville (#PCDATA)>
+    <!ELEMENT cp (#PCDATA)>
+

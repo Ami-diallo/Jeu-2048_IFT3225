@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="Bibliotheque.rnc" type="compact"?>
+
+<bibliotheque xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://www.umontreal.ca/bibliotheque"
+    xmlns:liv = "http://www.umontreal.ca/livres"
+    xmlns:aut = "http://www.umontreal.ca/auteurs">
+    <livres>
+        <liv:livre langue="anglais" auteurs="YH1">
+            <liv:titre>21 lessons for the 21st century</liv:titre>
+            <liv:annee>2018</liv:annee>
+            <liv:prix devise="USD">23.55</liv:prix>
+            <liv:couverture>https://images-na.ssl-images-amazon.com/images/I/718K91oepAL.jpg</liv:couverture>
+            <liv:commentaire>380 pages</liv:commentaire>
+        </liv:livre>
+        <liv:livre langue="français" auteurs="YH1">
+            <liv:annee>2017</liv:annee>
+            <liv:titre>Homo deus : une brève histoire du futur</liv:titre>
+            <liv:prix devise="CAD">85.70</liv:prix>
+            <liv:couverture>https://images-na.ssl-images-amazon.com/images/I/71BjqUAFGpL.jpg</liv:couverture>
+        </liv:livre>
+        <liv:livre langue="français" auteurs="JV2">
+            <liv:titre>Les enfants du capitaine Grant</liv:titre>
+            <liv:annee>2007</liv:annee>
+            <liv:prix devise="EURO">17.20</liv:prix>
+            <liv:commentaire>Éditeur : Librairie générale française</liv:commentaire>
+        </liv:livre>
+        <liv:livre langue="français" auteurs="JV2">
+            <liv:titre>L'île mystérieuse</liv:titre>
+            <liv:annee>1996</liv:annee>
+            <liv:prix devise="EURO">14.05</liv:prix>
+        </liv:livre>
+        <liv:livre langue="espagnol" auteurs="JV2">
+            <liv:titre>La vuelta al mundo en ochenta días</liv:titre>
+            <liv:annee>2003</liv:annee>
+            <liv:prix devise="CAD">35.75</liv:prix>
+        </liv:livre>
+        <liv:livre langue="français" auteurs="SH3">
+            <liv:titre>Une brève histoire du temps : du big bang aux trous noirs</liv:titre>
+            <liv:prix devise="USD">45.10</liv:prix>
+            <liv:annee>2017</liv:annee>
+            <liv:couverture>https://images-na.ssl-images-amazon.com/images/I/714kjLmqazL.jpg</liv:couverture>
+            <liv:commentaire>Science</liv:commentaire>
+        </liv:livre>
+        <liv:livre langue="anglais" auteurs="RE4 SN5">
+            <liv:titre>Fundamentals of database systems</liv:titre>
+            <liv:annee>2016</liv:annee>
+            <liv:prix devise="CAD">97.40</liv:prix>
+            <liv:commentaire>Éditeur : Pearson</liv:commentaire>
+        </liv:livre>
+        <liv:livre langue="anglais" auteurs="MO6">
+            <liv:annee>2018</liv:annee>
+            <liv:prix devise="USD">60.25</liv:prix>
+            <liv:titre>Becoming</liv:titre>
+            <liv:couverture>https://images-na.ssl-images-amazon.com/images/I/81h2gWPTYJL.jpg</liv:couverture>
+            <liv:commentaire>Biographie</liv:commentaire>
+        </liv:livre>
+    </livres>
+    <auteurs>
+        <aut:auteur ident="YH1">
+            <aut:nom>Harari</aut:nom>
+            <aut:prenom>Yuval Noah</aut:prenom>
+            <aut:adresse>Israel, Tel Aviv</aut:adresse>
+            <aut:commentaire>Professeur d'histoire à l'université hébraïque de Jérusalem.</aut:commentaire>
+            <aut:email>yharari@gmail.com</aut:email>
+        </aut:auteur>
+        <aut:auteur ident="JV2">
+            <aut:prenom>Jules</aut:prenom>
+            <aut:nom>Verne</aut:nom>
+            <aut:adresse>France, Paris</aut:adresse>
+            <aut:commentaire>Genres artistiques : science-fiction, théâtre, roman d'aventures.</aut:commentaire>
+            <aut:email>librairie-francaise@hotmail.com</aut:email>
+        </aut:auteur>
+        <aut:auteur ident="SH3">
+            <aut:nom>Hawking</aut:nom>
+            <aut:prenom>Stephen</aut:prenom>
+            <aut:adresse>Royaume-Uni, Cambridge</aut:adresse>
+            <aut:email>physics@cam1.uk</aut:email>
+        </aut:auteur>
+        <aut:auteur ident="RE4">
+            <aut:prenom>Ramez</aut:prenom>
+            <aut:nom>Elmasri</aut:nom>
+            <aut:adresse>États-Unis, Texas, Arlington</aut:adresse>
+            <aut:commentaire>Department of Computer Science and Engineering at the University of Texas</aut:commentaire>
+            <aut:email>ramez_elmasri@university-texas.com</aut:email>
+        </aut:auteur>
+        <aut:auteur ident="SN5">
+            <aut:nom>Navathe</aut:nom>
+            <aut:prenom>Shamkant</aut:prenom>
+            <aut:adresse>États-Unis, Géorgie, Atlanta</aut:adresse>
+            <aut:commentaire>College of Computing, Georgia Institute of Technology</aut:commentaire>
+            <aut:email>n.shamkant1@gi-tech.com</aut:email>
+        </aut:auteur>
+        <aut:auteur ident="MO6">
+            <aut:prenom>Michelle</aut:prenom>
+            <aut:nom>Obama</aut:nom>
+            <aut:adresse>États-Unis, Illinois, Chicago</aut:adresse>
+            <aut:email>michelle.obama@yahoo.com</aut:email>
+        </aut:auteur>
+    </auteurs>
+    <adresse>
+        <numero>501</numero>
+        <rue>Saint Denis</rue>
+        <ville>Montréal</ville>
+        <cp>H2X 0A9</cp>
+    </adresse>
+</bibliotheque>

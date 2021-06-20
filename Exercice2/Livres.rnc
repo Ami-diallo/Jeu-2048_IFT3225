@@ -1,0 +1,39 @@
+default namespace = "http://www.umontreal.ca/livres"
+namespace aut = "http://www.umontreal.ca/auteurs"
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+
+include "Auteurs.rnc" {
+    start = livres 
+}
+
+livres = element livres {
+            livre+
+        }
+
+livre = element livre {
+            attribute langue {text},
+            attribute auteurs {xsd:IDREFS},
+            
+            (element titre {Titre} 
+             & element annee {xsd:gYear} 
+             & element prix { 
+                Prix,
+                attribute devise {Devise}}),
+            element couverture {xsd:anyURI}?,
+            element commentaire {text}?
+       }
+
+Titre = xsd:string {
+        minLength = "0"    
+        maxLength = "60"
+       }
+        
+Devise = "CAD" | "USD" | "EURO"
+
+Prix = xsd:decimal {
+        minInclusive = "0"
+        maxInclusive = "100"
+        fractionDigits ="2"
+       }
+       
+# Url = xsd:anyURI {pattern="https?://.*"} 

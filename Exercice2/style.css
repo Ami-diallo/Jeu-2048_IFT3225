@@ -1,0 +1,23 @@
+body{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.auteur {
+    border-bottom:3px solid black;
+    padding-bottom: 20px;
+}
+
+ h3{
+    font-family: arial, helvetica, sans-serif;
+    text-align: center;
+    color: blue;
+    font-size: 40px;
+}
+
+
+ table, th {
+  border: 1px solid black;
+  color:red;
+}
