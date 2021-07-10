@@ -1,0 +1,136 @@
+.column {
+   
+    padding: 7px;
+   
+  }
+  
+  /* Clear floats after the columns */
+  .row {
+      
+    
+    display: flex;
+     justify-content: center;
+  
+  }
+  
+  .wrap {
+    background-color: #BBAE98;
+    margin-right: auto; /* 1 */
+    margin-left:  auto; /* 1 */
+    border-radius: 10px;
+    max-width: 500px; /* 2 */
+   
+    
+    margin-top: 20px;
+    padding-right: 10px; /* 3 */
+    padding-left:  10px; /* 3 */
+  
+  }
+  
+  .carre{
+    width: 106.25px;
+    height: 106.25px;
+     border-radius: 3px;
+    background: rgba(238, 228, 218, 0.35);
+  
+  }
+  
+  .carre1{
+    width: 106.25px;
+    height: 106.25px;
+     border-radius: 3px;
+     background: rgba(255, 255, 255, 0.6);
+  
+  }
+  
+  .item{
+       text-align: center;
+       padding-top: 30px;
+         font-size: 35px;
+  }
+  .score{
+    font-size: 20px;
+    text-align: center;
+    color: #BBAE98;
+  }
+
+  .button{
+    width: 120px;
+    height: 50px;
+    color: white;
+    border-radius: 10px;
+    background-color: #BBAE98;
+  }
+  
+  
+  @media screen and (max-width: 990px) {
+  
+   .carre{
+    width: 80px;
+    height: 80px;
+     border-radius: 3px;
+    background: rgba(238, 228, 218, 0.35);
+  }
+   
+  .wrap {
+    background-color: #BBAE98;
+    margin-right: auto; /* 1 */
+    margin-left:  auto; /* 1 */
+    border-radius: 10px;
+    max-width: 360px; /* 2 */
+   
+    
+    margin-top: 20px;
+    padding-right: 10px; /* 3 */
+    padding-left:  10px; /* 3 */
+  
+  }
+  .column {
+     
+    padding: 4px;
+   
+  }
+  .item{
+       text-align: center;
+       padding-top:20px;
+         font-size: 25px;
+  }
+  
+  }
+  
+  @media screen and (max-width: 600px) {
+  
+   .carre{
+    width: 55px;
+    height: 55px;
+     border-radius: 3px;
+    background: rgba(238, 228, 218, 0.35);
+  }
+   
+  .wrap {
+    background-color: gray;
+    margin-right: auto; /* 1 */
+    margin-left:  auto; /* 1 */
+    border-radius: 10px;
+    max-width: 250px; /* 2 */
+   
+    
+    margin-top: 20px;
+    padding-right: 10px; /* 3 */
+    padding-left:  10px; /* 3 */
+  
+  }
+  .column {
+     
+    padding: 2px;
+   
+  }
+  .item{
+       text-align: center;
+       padding-top: 15px;
+         font-size: 13px;
+  }
+  
+  }
+
+  
